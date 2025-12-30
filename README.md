@@ -1,1 +1,4 @@
 # Assignment-2
+The Vehicle Management System is a simple Java program that shows basic object-oriented programming concepts. It works with different types of vehicles such as cars, motorcycles, and trucks. The abstract class Vehicle is the main class and contains common fields like brand, year, and driver, as well as methods to start and stop the engine. The classes Car, Motorcycle, and Truck extend the Vehicle class and override these methods to show different behavior.
+
+Access modifiers are used to protect data. The fields in the Vehicle class are protected, so subclasses can use them. The fields in the Driver class are private to keep data safe. Each vehicle has a driver, which shows composition, and one driver can be used for several vehicles, which shows aggregation. Inheritance helps reduce repeated code and makes the program easy to understand. The project can be compiled with javac *.java and run with java Main.
